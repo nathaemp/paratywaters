@@ -1,31 +1,15 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-01T14:28:07Z",
+ "baixado": "2026-11-01T19:09:05Z",
  "avisos": [
   {
-   "area": "ÁREA ECHO",
-   "numero": "788/2026",
-   "inicio": "2026-10-27T06:00:00Z",
-   "fim": "2026-10-28T06:00:00Z",
+   "area": "ÁREA BRAVO",
+   "numero": "790/2026",
+   "inicio": "2026-11-03T00:00:00Z",
+   "fim": "2026-11-04T06:00:00Z",
    "tipo": "AVISO DE VENTO FORTE",
-   "texto": "AVISO NR 788/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1400Z - SEG - 26/OUT/2026\nÁREA OCEÂNICA ENTRE 17.8S039.1W, 14.1S038.4W, 19.3S033W E 21S033.1W A PARTIR DE 270600Z. VENTO S/SE FORÇA 7 COM RAJADAS.\nVÁLIDO ATÉ 280600Z."
-  },
-  {
-   "area": "ÁREA SUL OCEÂNICA",
-   "numero": "784/2026",
-   "inicio": "2026-10-26T21:00:00Z",
-   "fim": "2026-10-27T21:00:00Z",
-   "tipo": "AVISO DE VENTO MUITO FORTE",
-   "texto": "AVISO NR 784/2026\nAVISO DE VENTO MUITO FORTE\nEMITIDO ÀS 1300Z - SÁB - 24/OUT/2026\nÁREA OCEÂNICA ENTRE 25.1S028.7W, 25S020W E 34.1S020W A PARTIR DE 262100Z. VENTO N/NW FORÇA 8 COM RAJADAS FORÇA 9.\nVÁLIDO ATÉ 272100Z."
-  },
-  {
-   "area": "ÁREA SUL OCEÂNICA",
-   "numero": "786/2026",
-   "inicio": "2026-10-26T18:00:00Z",
-   "fim": "2026-10-28T00:00:00Z",
-   "tipo": "AVISO DE MAR MUITO GROSSO",
-   "texto": "AVISO NR 786/2026\nAVISO DE MAR MUITO GROSSO\nEMITIDO ÀS 1300Z - SÁB - 24/OUT/2026\nÁREA OCEÂNICA ENTRE 26.4S030.3W, 35.9S020W E 26.4S020W A PARTIR DE 261800Z. ONDAS DE N/NW 4.0/5.5 METROS.\nVÁLIDO ATÉ 280000Z."
+   "texto": "AVISO NR 790/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - DOM - 01/NOV/2026\nÁREA OCEÂNICA ENTRE 23.1S042W, 26.8S046.6W, 31S043W E 26S038W A PARTIR DE 030000Z. VENTO NE/N FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 040600Z."
   }
  ]
 }
