@@ -1,8 +1,24 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-02T09:54:32Z",
+ "baixado": "2026-11-02T20:16:00Z",
  "avisos": [
+  {
+   "area": "ÁREA ALFA",
+   "numero": "791/2026",
+   "inicio": "2026-11-03T03:00:00Z",
+   "fim": "2026-11-03T12:00:00Z",
+   "tipo": "AVISO DE BAIXA VISIBILIDADE",
+   "texto": "AVISO NR 791/2026\nAVISO DE BAIXA VISIBILIDADE\nEMITIDO ÀS 1300Z - SEG - 02/NOV/2026\nÁREA COSTEIRA ENTRE CHUÍ/RS E TORRES/RS ATÉ 50MN DA COSTA A PARTIR DE 030300Z. NEVOEIROS ESPARSOS.\nVÁLIDO ATÉ 031200Z."
+  },
+  {
+   "area": "ÁREA ALFA",
+   "numero": "792/2026",
+   "inicio": "2026-11-04T03:00:00Z",
+   "fim": "2026-11-05T03:00:00Z",
+   "tipo": "AVISO DE VENTO FORTE",
+   "texto": "AVISO NR 792/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1200Z - SEG - 02/NOV/2026\nÁREA OCEÂNICA ENTRE 33.8S053.2W, 30.8S050.5W, 32.4S047.1W, 33.1S045.1W E 36S048W A PARTIR DE 040300Z. VENTO NE/N FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 050300Z."
+  },
   {
    "area": "ÁREA BRAVO",
    "numero": "790/2026",
