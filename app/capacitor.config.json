@@ -1,0 +1,14 @@
+{
+  "appId": "com.limafilms.paratywaters",
+  "appName": "Paraty Waters",
+  "webDir": "www",
+  "server": {
+    "url": "https://nathaemp.github.io/paratywaters/",
+    "errorPath": "offline.html",
+    "androidScheme": "https"
+  },
+  "android": {
+    "appendUserAgent": "ParatyWatersApp",
+    "backgroundColor": "#05141a"
+  }
+}

@@ -912,7 +912,7 @@ $('share-app').onclick=async()=>{
 /* Instalar na tela inicial */
 const Inst=(()=>{
   const KEY='np-inst-no',DAYS=14;
-  const standalone=()=>matchMedia('(display-mode: standalone)').matches||matchMedia('(display-mode: fullscreen)').matches||navigator.standalone===true;
+  const standalone=()=>/ParatyWatersApp/.test(navigator.userAgent)||matchMedia('(display-mode: standalone)').matches||matchMedia('(display-mode: fullscreen)').matches||navigator.standalone===true;
   const ios=/iPhone|iPad|iPod/i.test(navigator.userAgent)||(/Macintosh/.test(navigator.userAgent)&&navigator.maxTouchPoints>1);
   const iosOther=ios&&/CriOS|FxiOS|EdgiOS|Instagram|FBAN|FBAV/i.test(navigator.userAgent);
   let deferred=null;
