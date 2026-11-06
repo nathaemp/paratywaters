@@ -1,32 +1,8 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-06T03:22:14Z",
+ "baixado": "2026-11-06T11:25:45Z",
  "avisos": [
-  {
-   "area": "ÁREA ALFA",
-   "numero": "794/2026",
-   "inicio": "2026-11-05T12:00:00Z",
-   "fim": "2026-11-06T06:00:00Z",
-   "tipo": "AVISO DE VENTO FORTE",
-   "texto": "AVISO NR 794/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - TER - 03/NOV/2026\nÁREA OCEÂNICA ENTRE 33.9S052.9W, 28.8S048.5W, 30.9S043.2W E 35.9S048.3W A PARTIR DE 051200Z. VENTO SW/S FORÇA 7.\nVÁLIDO ATÉ 060600Z."
-  },
-  {
-   "area": "ÁREA BRAVO",
-   "numero": "793/2026",
-   "inicio": "2026-11-04T18:00:00Z",
-   "fim": "2026-11-05T12:00:00Z",
-   "tipo": "AVISO DE VENTO FORTE",
-   "texto": "AVISO NR 793/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1400Z - TER - 03/NOV/2026\nÁREA COSTEIRA ENTRE LAGUNA/SC E GUARATUBA/PR ATÉ 200MN DA COSTA A PARTIR DE 041800Z. VENTO NE/N RONDANDO PARA SW/S, FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 051200Z."
-  },
-  {
-   "area": "ÁREA DELTA",
-   "numero": "795/2026",
-   "inicio": "2026-11-05T12:00:00Z",
-   "fim": "2026-11-06T06:00:00Z",
-   "tipo": "AVISO DE VENTO FORTE",
-   "texto": "AVISO NR 795/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1400Z - TER - 03/NOV/2026\nÁREA OCEÂNICA ENTRE 19.8S039.7W, 23.7S041W, 26S038W E 22.8S034.8W A PARTIR DE 051200Z. VENTO NE/N FORÇA 7.\nVÁLIDO ATÉ 060600Z."
-  },
   {
    "area": "ÁREA SUL OCEÂNICA",
    "numero": "796/2026",
