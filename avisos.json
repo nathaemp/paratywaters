@@ -1,7 +1,7 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-06T23:29:08Z",
+ "baixado": "2026-11-07T03:09:39Z",
  "avisos": [
   {
    "area": "ÁREA BRAVO",
@@ -26,14 +26,6 @@
    "fim": "2026-11-09T09:00:00Z",
    "tipo": "AVISO DE VENTO FORTE/MUITO FORTE",
    "texto": "AVISO NR 798/2026\nAVISO DE VENTO FORTE/MUITO FORTE\nEMITIDO ÀS 1300Z - SEX - 06/NOV/2026\nÁREA COSTEIRA ENTRE ARRAIAL DO CABO/RJ E MARATAÍZES/ES ATÉ 320MN DA COSTA A PARTIR DE 080900Z. VENTO NE/NW RONDANDO PARA SW/SE, FORÇA 7/8.\nVÁLIDO ATÉ 090900Z."
-  },
-  {
-   "area": "ÁREA SUL OCEÂNICA",
-   "numero": "796/2026",
-   "inicio": "2026-11-06T03:00:00Z",
-   "fim": "2026-11-07T00:00:00Z",
-   "tipo": "AVISO DE VENTO MUITO FORTE",
-   "texto": "AVISO NR 796/2026\nAVISO DE VENTO MUITO FORTE\nEMITIDO ÀS 1300Z - QUA - 04/NOV/2026\nÁREA OCEÂNICA ENTRE 28.3S034.3W, 26.1S029.5W, 30.6S020.1W E 35.3S020.1W A PARTIR DE 060300Z. VENTO NE/N FORÇA 8 COM RAJADAS FORÇA 9.\nVÁLIDO ATÉ 070000Z."
   }
  ]
 }
