@@ -1,8 +1,16 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-08T14:15:14Z",
+ "baixado": "2026-11-08T19:03:16Z",
  "avisos": [
+  {
+   "area": "ÁREA ALFA",
+   "numero": "804/2026",
+   "inicio": "2026-11-10T09:00:00Z",
+   "fim": "2026-11-11T12:00:00Z",
+   "tipo": "AVISO DE VENTO FORTE",
+   "texto": "AVISO NR 804/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - DOM - 08/NOV/2026\nÁREA COSTEIRA ENTRE CHUÍ/RS E LAGUNA/SC ATÉ 150MN DA COSTA A PARTIR DE 100900Z. VENTO NE/N FORÇA 7.\nVÁLIDO ATÉ 111200Z."
+  },
   {
    "area": "ÁREA BRAVO",
    "numero": "797/2026",
@@ -26,6 +34,14 @@
    "fim": "2026-11-09T09:00:00Z",
    "tipo": "AVISO DE VENTO FORTE/MUITO FORTE",
    "texto": "AVISO NR 802/2026\nAVISO DE VENTO FORTE/MUITO FORTE\nEMITIDO ÀS 071400 UTC NOV 2026\nÁREA COSTEIRA ENTRE ARRAIAL DO CABO/RJ E SÃO MATEUS/ES ATÉ 320MN DA COSTA A PARTIR DE 080900Z. VENTO SW/S FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 090900Z.\nESTE AVISO SUBSTITUI O AVISO NR 798/2026."
+  },
+  {
+   "area": "ÁREA ECHO",
+   "numero": "803/2026",
+   "inicio": "2026-11-09T00:00:00Z",
+   "fim": "2026-11-11T00:00:00Z",
+   "tipo": "AVISO DE VENTO FORTE",
+   "texto": "AVISO NR 803/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - DOM - 08/NOV/2026\nÁREA OCEÂNICA ENTRE 18S039W, 15S039W, 17S033W E 21S033W A PARTIR DE 090000Z. VENTO S/SE FORÇA 7.\nVÁLIDO ATÉ 110000Z."
   },
   {
    "area": "ÁREA SUL OCEÂNICA",
