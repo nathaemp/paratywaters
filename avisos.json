@@ -1,6 +1,23 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-15T07:46:22Z",
- "avisos": []
+ "baixado": "2026-11-15T20:32:58Z",
+ "avisos": [
+  {
+   "area": "ÁREA ALFA",
+   "numero": "805/2026",
+   "inicio": "2026-11-16T18:00:00Z",
+   "fim": "2026-11-18T00:00:00Z",
+   "tipo": "AVISO DE VENTO FORTE",
+   "texto": "AVISO NR 805/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - DOM - 15/NOV/2026\nÁREA COSTEIRA ENTRE RIO GRANDE/RS E LAGUNA/SC ATÉ 200MN DA COSTA A PARTIR DE 161800Z. VENTO NE/N FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 180000Z."
+  },
+  {
+   "area": "ÁREA DELTA",
+   "numero": "806/2026",
+   "inicio": "2026-11-17T06:00:00Z",
+   "fim": "2026-11-18T06:00:00Z",
+   "tipo": "AVISO DE VENTO FORTE",
+   "texto": "AVISO NR 806/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - DOM - 15/NOV/2026\nÁREA OCEÂNICA ENTRE 18.5S037.9W, 21S033W E 24.9S036.9W A PARTIR DE 170600Z. VENTO CICLÔNICO FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 180600Z."
+  }
+ ]
 }
