@@ -1,7 +1,7 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-17T09:04:13Z",
+ "baixado": "2026-11-17T18:28:54Z",
  "avisos": [
   {
    "area": "ÁREA ALFA",
@@ -13,11 +13,11 @@
   },
   {
    "area": "ÁREA DELTA",
-   "numero": "806/2026",
-   "inicio": "2026-11-17T06:00:00Z",
-   "fim": "2026-11-18T06:00:00Z",
+   "numero": "807/2026",
+   "inicio": "",
+   "fim": "",
    "tipo": "AVISO DE VENTO FORTE",
-   "texto": "AVISO NR 806/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1300Z - DOM - 15/NOV/2026\nÁREA OCEÂNICA ENTRE 18.5S037.9W, 21S033W E 24.9S036.9W A PARTIR DE 170600Z. VENTO CICLÔNICO FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 180600Z."
+   "texto": "AVISO NR 807/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 161700 UTC NOV 2026\nÁREA OCEÂNICA ENTRE 18.5S037.9W, 14S038.5W, 21S033W E 24.9S036.9W. VENTO NE/N FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 180600Z.\nESTE AVISO SUBSTITUI O AVISO NR 806/2026."
   }
  ]
 }
