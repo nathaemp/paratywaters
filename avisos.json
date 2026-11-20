@@ -1,6 +1,15 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-19T17:17:38Z",
- "avisos": []
+ "baixado": "2026-11-20T06:59:48Z",
+ "avisos": [
+  {
+   "area": "ÁREA DELTA",
+   "numero": "808/2026",
+   "inicio": "2026-11-20T18:00:00Z",
+   "fim": "2026-11-22T06:00:00Z",
+   "tipo": "AVISO DE VENTO FORTE",
+   "texto": "AVISO NR 808/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1500Z - QUI - 19/NOV/2026\nÁREA OCEÂNICA ENTRE 20.4S040.1W, 21.7S037.7W, 25.1S039.3W E 23.3S041.6W A PARTIR DE 201800Z. VENTO NE/N FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 220600Z."
+  }
+ ]
 }
