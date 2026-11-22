@@ -1,15 +1,15 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-22T07:22:24Z",
+ "baixado": "2026-11-22T15:37:16Z",
  "avisos": [
   {
-   "area": "ÁREA DELTA",
-   "numero": "808/2026",
-   "inicio": "2026-11-20T18:00:00Z",
-   "fim": "2026-11-22T06:00:00Z",
-   "tipo": "AVISO DE VENTO FORTE",
-   "texto": "AVISO NR 808/2026\nAVISO DE VENTO FORTE\nEMITIDO ÀS 1500Z - QUI - 19/NOV/2026\nÁREA OCEÂNICA ENTRE 20.4S040.1W, 21.7S037.7W, 25.1S039.3W E 23.3S041.6W A PARTIR DE 201800Z. VENTO NE/N FORÇA 7 COM RAJADAS FORÇA 8.\nVÁLIDO ATÉ 220600Z."
+   "area": "ÁREA ALFA",
+   "numero": "809/2026",
+   "inicio": "2026-11-23T03:00:00Z",
+   "fim": "2026-11-23T15:00:00Z",
+   "tipo": "AVISO DE BAIXA VISIBILIDADE",
+   "texto": "AVISO NR 809/2026\nAVISO DE BAIXA VISIBILIDADE\nEMITIDO ÀS 1200Z - DOM - 22/NOV/2026\nÁREA COSTEIRA ENTRE CHUÍ/RS E RIO GRANDE/RS ATÉ 50MN DA COSTA A PARTIR DE 230300Z. NEVOEIROS ESPARSOS.\nVÁLIDO ATÉ 231500Z."
   }
  ]
 }
