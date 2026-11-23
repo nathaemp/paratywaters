@@ -1,7 +1,7 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-23T11:10:36Z",
+ "baixado": "2026-11-23T22:52:57Z",
  "avisos": [
   {
    "area": "ÁREA ALFA",
@@ -10,6 +10,14 @@
    "fim": "2026-11-23T15:00:00Z",
    "tipo": "AVISO DE BAIXA VISIBILIDADE",
    "texto": "AVISO NR 809/2026\nAVISO DE BAIXA VISIBILIDADE\nEMITIDO ÀS 1200Z - DOM - 22/NOV/2026\nÁREA COSTEIRA ENTRE CHUÍ/RS E RIO GRANDE/RS ATÉ 50MN DA COSTA A PARTIR DE 230300Z. NEVOEIROS ESPARSOS.\nVÁLIDO ATÉ 231500Z."
+  },
+  {
+   "area": "ÁREA ALFA",
+   "numero": "810/2026",
+   "inicio": "2026-11-24T04:00:00Z",
+   "fim": "2026-11-24T13:30:00Z",
+   "tipo": "AVISO DE BAIXA VISIBILIDADE",
+   "texto": "AVISO NR 810/2026\nAVISO DE BAIXA VISIBILIDADE\nEMITIDO ÀS 1200Z - SEG - 23/NOV/2026\nÁREA COSTEIRA ENTRE CHUÍ/RS E TRAMANDAÍ/RS ATÉ 40MN DA COSTA A PARTIR DE 240400Z. NEVOEIROS ESPARSOS.\nVÁLIDO ATÉ 241330Z."
   }
  ]
 }
