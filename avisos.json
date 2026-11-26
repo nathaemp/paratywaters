@@ -1,7 +1,7 @@
 {
  "fonte": "Marinha do Brasil · CHM · Serviço Meteorológico Marinho",
  "url": "https://www.marinha.mil.br/chm/dados-do-smm-avisos-de-mau-tempo/avisos-de-mau-tempo",
- "baixado": "2026-11-26T04:19:33Z",
+ "baixado": "2026-11-26T14:19:42Z",
  "avisos": [
   {
    "area": "ÁREA ALFA",
@@ -34,6 +34,14 @@
    "fim": "2026-11-28T12:00:00Z",
    "tipo": "AVISO DE RESSACA",
    "texto": "AVISO NR 814/2026\nAVISO DE RESSACA\nEMITIDO ÀS 1300Z - QUA - 25/NOV/2026\nRESSACA ENTRE ILHABELA/SP E CAMPOS DOS GOYTACAZES/RJ A PARTIR DE 272100Z. ONDAS DE SW 2.5/3.0 METROS.\nVÁLIDO ATÉ 281200Z."
+  },
+  {
+   "area": "ÁREA DELTA",
+   "numero": "819/2026",
+   "inicio": "2026-11-27T21:00:00Z",
+   "fim": "2026-11-28T18:00:00Z",
+   "tipo": "AVISO DE MAR GROSSO/MUITO GROSSO",
+   "texto": "AVISO NR 819/2026\nAVISO DE MAR GROSSO/MUITO GROSSO\nEMITIDO ÀS 1400Z - QUI - 26/NOV/2026\nÁREA OCEÂNICA ENTRE 23.2S041.7W, 19.3S038.6W, 21.9S033.9W E 25.9S038W A PARTIR DE 272100Z. ONDAS DE SW/S 3.0/4.0 METROS.\nVÁLIDO ATÉ 281800Z."
   },
   {
    "area": "ÁREA SUL OCEÂNICA",
