@@ -3,9 +3,14 @@
   "appName": "Paraty Waters",
   "webDir": "www",
   "server": {
-    "url": "https://nathaemp.github.io/paratywaters/",
+    "url": "https://limafilmsparaty.com/paratywaters/",
     "errorPath": "offline.html",
-    "androidScheme": "https"
+    "androidScheme": "https",
+    "allowNavigation": [
+      "limafilmsparaty.com",
+      "www.limafilmsparaty.com",
+      "nathaemp.github.io"
+    ]
   },
   "android": {
     "appendUserAgent": "ParatyWatersApp",
