@@ -329,6 +329,9 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border
   var SK='sb-paqfgdjtywwlpzdmchdp-auth-token', OK='pw-ok-at', DAY=864e5;
   var g=document.getElementById('pw-gate'), $=function(i){return document.getElementById(i)};
   var last=0;try{last=+localStorage.getItem(OK)||0}catch(e){}
+  // vindo do botão do acervo: o token chega no fragmento (#pwt=…) e some da barra na hora
+  var handed=null,m=location.hash.match(/[#&]pwt=([^&]+)/);
+  if(m){handed=decodeURIComponent(m[1]);try{history.replaceState(null,'',location.pathname+location.search)}catch(e){}}
   if(Date.now()-last>DAY)g.hidden=false;           // sem conferência recente: segura a tela
   function lock(login){
     try{localStorage.removeItem(OK)}catch(e){}
@@ -338,7 +341,7 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border
       ?'O Paraty Waters faz parte da assinatura do Lima Acervo. Entre com a sua conta do acervo para abrir.'
       :'Sua conta do Lima Acervo ainda não inclui o Paraty Waters. Ele vem com o Plano Completo ou pode ser liberado pela Lima Films.';
     var a=$('pw-gate-a');a.hidden=false;
-    if(login){a.textContent='Entrar no Lima Acervo';a.href='/auth'}
+    if(login){a.textContent='Entrar no Lima Acervo';a.href='/auth?next='+encodeURIComponent('/paratywaters/')}
     else{a.textContent='Falar com a Lima Films';a.href='https://wa.me/5524993072587?text='+encodeURIComponent('Oi! Quero acesso ao Paraty Waters.')}
     var b=$('pw-gate-b');b.hidden=false;b.textContent='Ver planos do Lima Acervo';
   }
@@ -353,6 +356,7 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border
   // Administrador ou plano pago na própria conta do Paraty Waters também entra direto.
   try{var pl=JSON.parse(localStorage.getItem('lm-plano')||'null');
     if(pl&&(pl.admin||(pl.plano&&pl.plano!=='gratis'&&(!pl.ate||new Date(pl.ate)>new Date())))){allow();return}}catch(e){}
+  if(handed){ask(handed).then(function(r){r&&r.ok?allow():lock(!!(r&&r.login))}).catch(function(){Date.now()-last<30*DAY?allow():lock(true)});return}
   var s=session();
   if(!s||!s.access_token){lock(true);return}
   var fresh=s.expires_at&&s.expires_at*1000>Date.now()+60e3;
