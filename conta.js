@@ -28,7 +28,12 @@ const auth=$('auth');
 function unlock(){html.classList.remove('locked');auth.hidden=true;auth.innerHTML='';$('acct-btn').hidden=false;drawBtn();drawAdminBtn();
   // o aviso de instalar fica bloqueado na tela de entrar; mostra depois de entrar
   setTimeout(()=>{try{window.PW_INST&&window.PW_INST.showBanner()}catch(e){}},1800)}
-function lock(view,msg){html.classList.add('locked');auth.hidden=false;$('acct-btn').hidden=true;go(view||'entrar',msg)}
+// Quem já passou pela conferência do Lima Acervo usa o app sem a conta própria do Paraty Waters.
+const gateOk=()=>{try{return Date.now()-(+localStorage.getItem('pw-ok-at')||0)<30*864e5}catch(e){return false}};
+function guest(){if(user)return;html.classList.remove('locked');auth.hidden=true;auth.innerHTML='';$('acct-btn').hidden=true}
+window.PW_GUEST=()=>{if(!user&&!ls.get('lm-ok')&&html.classList.contains('locked')&&lastView!=='nova')guest()};
+let lastView='';
+function lock(view,msg){lastView=view||'entrar';html.classList.add('locked');auth.hidden=false;$('acct-btn').hidden=true;go(view||'entrar',msg)}
 function setOK(u){ls.set('lm-ok',{id:u.id,email:u.email,t:Date.now()})}
 function clearLocal(){ls.del('lm-ok');ls.del('lm-perfil');ls.del('lm-plano');perfil=null;user=null;PLANO=null;drawAdminBtn()}
 
@@ -366,6 +371,8 @@ sb.auth.onAuthStateChange((ev,session)=>{
   // sem sessão: no mar, sem sinal, deixa entrar quem já entrou neste celular
   const ok=ls.get('lm-ok');
   if(ok&&(navigator.onLine===false||falhouRede)){unlock();return}
-  clearLocal();lock('entrar');
+  clearLocal();
+  if(gateOk()){guest();return}
+  lock('entrar');
 })();
 })();
