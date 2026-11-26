@@ -350,6 +350,9 @@ nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border
       .then(function(n){n.expires_at=n.expires_at||Math.floor(Date.now()/1000)+(n.expires_in||3600);try{localStorage.setItem(SK,JSON.stringify(n))}catch(e){}return n});
   }
   function ask(tok){return fetch('/api/public/pw-access',{headers:{authorization:'Bearer '+tok},cache:'no-store'}).then(function(r){return r.json()})}
+  // Administrador ou plano pago na própria conta do Paraty Waters também entra direto.
+  try{var pl=JSON.parse(localStorage.getItem('lm-plano')||'null');
+    if(pl&&(pl.admin||(pl.plano&&pl.plano!=='gratis'&&(!pl.ate||new Date(pl.ate)>new Date())))){allow();return}}catch(e){}
   var s=session();
   if(!s||!s.access_token){lock(true);return}
   var fresh=s.expires_at&&s.expires_at*1000>Date.now()+60e3;
